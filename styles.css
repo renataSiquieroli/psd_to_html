@@ -5,7 +5,27 @@
 /* NAVBAR-HERO */
 
 /* OUR-STORY */
+.story_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  column-gap: 100px;
+  width: 100%;
+}
+.story_item1 {
+  align-items: center;
+  justify-content: center;
+  justify-content: space-arounds;
+}
+.story_item1,
+h4 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  font-weight: lighter;
 
+  color: gray;
+}
 /* WATCH */
 
 /* EXPERTISE */
