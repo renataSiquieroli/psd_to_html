@@ -8,7 +8,146 @@
 
 /* WATCH */
 
+#watch_section {
+  margin-bottom: 5%;
+}
+
+.image_play_button_container {
+  /*  background-color: aqua; */
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  z-index: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#background_image {
+  width: 100%;
+  max-width: max-content;
+}
+
+.watch_section_play_button {
+  /*   background-color: rgb(255, 145, 0); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+#watch_section_play_button_icon {
+  height: 90px;
+  width: auto;
+  padding-bottom: 25px;
+}
+
+.watch_section_play_button > p {
+  /*   background-color: blueviolet; */
+  font-family: sans-serif;
+  color: white;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
 /* EXPERTISE */
+
+#expertise_section {
+  /*   background-color: blueviolet; */
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#expertise_section_intro {
+  /* font-family: grenoble; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6%;
+  color: #3e3c4b;
+}
+
+#expertise_section_intro > h2 {
+  /*   background-color: #cf7777; */
+  padding-bottom: 10px;
+  color: #3e3c4b;
+}
+
+#expertise_section_intro > p {
+  /*   background-color: #ac5454; */
+  padding-bottom: 10px;
+  color: #696969;
+}
+
+#expertise_section_cards_background {
+  background-color: #ececec;
+}
+
+#expertise_section_cards {
+  /*   background-color: aqua; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1px;
+  row-gap: 1px;
+}
+
+.expertise_section_element {
+  font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: #3e3c4b;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.icon {
+  min-height: 50px;
+  width: auto;
+  margin-bottom: 10%;
+}
+
+.expertise_section_element > h3 {
+  /*   background-color: rgb(121, 77, 77); */
+  margin-bottom: 5%;
+  font-size: 0.8em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.expertise_section_element > p {
+  /*   background-color: rgb(121, 77, 77); */
+  margin-bottom: 5%;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: 300;
+  max-width: 250px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #696969;
+  line-height: 1.4;
+}
+
+hr {
+  width: 40px;
+  height: 2px;
+  background: #e2e2e2;
+  border: 0;
+}
+
+@media only screen and (max-width: 500px) {
+  #expertise_section_cards {
+    /* background-color: rgb(255, 187, 0); */
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /* TEAM */
 
