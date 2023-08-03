@@ -15,3 +15,120 @@
 /* CONTACT-CLIENT */
 
 /* FOOTER */
+.background {
+  display: flex;
+  background: url(./image/photoshop/photoshop/design-assets/bgk-footer.png) 100%
+    100% no-repeat;
+  width: 100vw;
+}
+
+#footer_section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
+}
+.footer-wrap {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+
+.footer-wrap h3 {
+  font-size: 1em;
+  font-weight: 500;
+}
+.footer-content {
+  width: 300px;
+}
+
+.footer-location {
+  width: 300px;
+}
+.footer-contact {
+  width: 300px;
+}
+
+.tajam-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+}
+
+.tajam-logo span {
+  color: #00e0d0;
+  font-size: 35px;
+  padding-left: 15px;
+}
+
+.footer-content p {
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+
+.footer-loc-wrap {
+  display: flex;
+  padding-top: 40px;
+}
+.footer-loc-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.footer-cont-wrap {
+  padding-top: 40px;
+}
+.footer-cont-form {
+  display: flex;
+  justify-content: space-between;
+}
+form input {
+  border: 2px solid #ececec;
+  background: none;
+  width: 90%;
+  padding: 12px;
+  font-size: 1em;
+}
+.subscribe img {
+  height: 23px;
+  width: 45px;
+  padding: 5px;
+}
+.footer-cont-smedia {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer-bottom-wrap {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 0.8em;
+}
