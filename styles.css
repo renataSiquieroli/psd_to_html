@@ -50,6 +50,106 @@ h3 {
 
 /* TEAM */
 
+.team {
+  background: url("image/photoshop/photoshop/design-assets/bgk-header.png")
+    no-repeat;
+  background-size: cover;
+  min-height: 500px;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 20px;
+}
+
+.team__container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+  margin-top: 30px;
+}
+
+.team__title {
+  color: white;
+}
+
+.team__subtitle {
+  margin: 0 auto 10px;
+  color: white;
+}
+
+.team__divider {
+  color: gray;
+  width: 70px;
+  height: 2px;
+  background: gray;
+  border: 0;
+}
+
+.staff {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+.staff__item {
+  text-align: center;
+
+  margin-bottom: 10px;
+}
+
+.staff__photo-wrapper {
+  width: 180px;
+  height: 180px;
+  margin-bottom: 20px;
+}
+
+.staff__photo {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+  background-color: white;
+}
+
+.staff__item {
+  font-weight: 100;
+  font-size: 0.813rem; /* 13px / 16px */
+  line-height: 1.2em;
+  font-family: "Roboto", "Arial", sans-serif;
+  text-transform: uppercase;
+  transition: all 0.5s ease;
+  border-style: groove;
+  border-color: gray;
+}
+
+.staff__name {
+  display: block;
+  font-weight: 700;
+  font-size: 0.825rem; /* 14px / 16px */
+  margin-bottom: 6px;
+  color: white;
+}
+
+.staff__job {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.team__text {
+  margin-top: 0;
+  margin-bottom: 16px;
+  color: white;
+}
+.btn-team {
+  margin-bottom: 50px;
+  color: #66b6d2;
+  font-size: 15px;
+  padding: 8px 12px;
+  font-weight: 10px;
+}
+
 /* CONTACT-CLIENT */
 
 /* FOOTER */
