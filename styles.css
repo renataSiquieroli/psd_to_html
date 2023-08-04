@@ -59,7 +59,7 @@ nav li{
 }
 .left-top{
   display: flex;
-  width: 50%;
+  width: 40%;
 }
 .right-top{
   width: 50%;
@@ -68,7 +68,7 @@ nav li{
 }
 .navbar-ul{
   list-style: none;
-  align-self: left  ;
+  align-self: left;
 }
 .Jlist{
   font-weight: bold;
@@ -82,12 +82,12 @@ nav li{
 }
 .herotitle{
   color: white;
-  padding-bottom: 4%;
+  padding-bottom: 3%;
   padding-top: 10%;
   font-size: 2rem;
 }
 .jhr{
-  margin-bottom: 6%;
+  margin-bottom: 5%;
   background-color: cyan;
 }
 .herop{
