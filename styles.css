@@ -174,3 +174,172 @@ hr {
 /* CONTACT-CLIENT */
 
 /* FOOTER */
+.background {
+  display: flex;
+  background: url(./image/photoshop/photoshop/design-assets/bgk-footer.png)
+    no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100vw;
+}
+.footer-content p h3 {
+  min-width: 200px;
+  min-height: 200px;
+}
+#footer_section {
+  color: #ffff;
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 16px;
+}
+.footer-content p h3 {
+  padding: 10px;
+}
+
+.background .footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-container {
+  max-width: 960px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-self: center;
+}
+.footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-wrap h3 {
+  font-size: 1em;
+  font-weight: 500;
+}
+.footer-content {
+  height: auto;
+  width: 18em;
+}
+
+.footer-location {
+  height: auto;
+  width: 18em;
+}
+.footer-contact {
+  height: auto;
+  width: 18em;
+}
+
+.tajam-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 25px;
+  font-size: 1.5em;
+}
+
+.tajam-logo span {
+  color: #00e0d0;
+  font-size: 35px;
+  padding-left: 15px;
+}
+
+.footer-content p {
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+
+.footer-loc-wrap {
+  display: flex;
+  padding-top: 40px;
+}
+.footer-loc-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 10px;
+}
+
+.footer-cont-wrap {
+  padding-top: 40px;
+}
+.footer-cont-form {
+  display: flex;
+  justify-content: space-between;
+}
+form input {
+  border: 2px solid #ececec;
+  background: none;
+  width: 90%;
+  padding: 12px;
+  font-size: 1em;
+}
+.subscribe img {
+  height: 23px;
+  width: 45px;
+  padding: 5px;
+}
+.footer-cont-smedia {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.footer-bottom-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 900px;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.footer-links {
+  display: flex;
+  width: 35%;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #ffff;
+  font-size: 0.8em;
+}
+
+/* Responsive Design */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: auto;
+  }
+  .footer-bottom-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 70px;
+  }
+
+  .footer-contact h3 {
+    padding-top: 40px;
+  }
+  .footer-links {
+    padding-bottom: 15px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
