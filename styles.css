@@ -67,7 +67,7 @@ h4 {
 
 .watch_section_play_button > p {
   /*   background-color: blueviolet; */
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   color: white;
   font-size: 0.9em;
   font-weight: 600;
@@ -116,7 +116,7 @@ h4 {
 }
 
 .expertise_section_element {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-direction: column;
