@@ -3,7 +3,114 @@
 }
 
 /* NAVBAR-HERO */
+/*navbar */
+header{
+  display: flex;
+  width: 90%;
+  margin-left: 10%;
+  right: 0;
+  max-height: 100px;
+}
+.jcompanylogo{
+  width: 70px;
+  padding-top: 10px;
+}
+.herosectiontop{
+  background-image: url(./image/photoshop/photoshop/design-assets/bgk-header.png);
+  background-size:cover;
+  padding-bottom: 5%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
+.jcompany{
+  align-self:center;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: cyan;
+  font-weight:lighter;
+}
+.navbar{
+  padding: 20px;
+  justify-content: space-between;
+  padding-left: 0;
+  text-align: left;
+}
+.navbar li{
+  padding: 0 10px;
+}
+.jtext{
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
+  transition: color 0.5s ease;
+}
+.jtext:hover{
+  color: cyan;
+}
+nav li{
+  display: inline-block;
+  padding: 0;
+}
+.left-top{
+  display: flex;
+  width: 50%;
+}
+.right-top{
+  width: 50%;
+  position:relative;
+  padding: 0;
+}
+.navbar-ul{
+  list-style: none;
+  align-self: left  ;
+}
+.Jlist{
+  font-weight: bold;
+}
+/* hero section */
+#hero-section{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.herotitle{
+  color: white;
+  padding-bottom: 4%;
+  padding-top: 10%;
+  font-size: 2rem;
+}
+.jhr{
+  margin-bottom: 6%;
+  background-color: cyan;
+}
+.herop{
+  color: white;
+  margin-bottom: 5%;
+  max-width: 50%;
+  font-size: 1.1rem;
+}
+.jbutton{
+  height: 30px;
+  width: 100px;
+  background-color: transparent;
+  border: 2px solid cyan;
+  color: cyan;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.jbutton:hover{
+  cursor: pointer;
+  background-color: cyan;
+  color: white;
+  transition: 0.3s ease-in-out;
+}
 /* OUR-STORY */
 .story_container {
   display: flex;
