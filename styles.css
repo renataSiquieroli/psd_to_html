@@ -13,5 +13,83 @@
 /* TEAM */
 
 /* CONTACT-CLIENT */
+#contact_client_section {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  flex-wrap: wrap;
+}
+
+#contact_client_section h2 {
+  font-size: 1.2em;
+}
+
+.contact-form input,
+textarea {
+  margin-top: 20px;
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ececec;
+  font-size: 0.8em;
+  background: none;
+  color: #ececec;
+  font-weight: 100;
+}
+
+.contact-form textarea {
+  font-size: 1.1em;
+}
+.contact-form {
+  width: 30%;
+}
+
+.contact-form button {
+  border: 2px solid cyan;
+  background: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 0.7em;
+  color: cyan;
+}
+.contact-client h2 {
+  padding-left: 50px;
+}
+.contact-client {
+  width: 35%;
+}
+.client-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.client-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+  width: 50%;
+  margin-top: 5%;
+}
+
+@media only screen and (max-width: 720px) {
+  #contact_client_section,
+  .contact-client,
+  .contact-form,
+  .client-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .contact-client {
+    margin-top: 40px;
+    align-items: center;
+  }
+  #contact_client_section h2 {
+    text-align: center;
+    padding: 0;
+  }
+}
 
 /* FOOTER */
