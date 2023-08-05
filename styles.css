@@ -67,6 +67,7 @@ h3 {
   align-items: center;
   flex: 1;
   margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .team__title {
@@ -143,13 +144,26 @@ h3 {
   color: white;
 }
 .btn-team {
-  margin-bottom: 50px;
+  /* margin-bottom: 50px;
   color: #66b6d2;
   font-size: 15px;
   padding: 8px 12px;
-  font-weight: 10px;
+  font-weight: 10px; */
+  height: 30px;
+  width: 130px;
+  background-color: transparent;
+  border: 2px solid cyan;
+  color: cyan;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  button:hover {
+    cursor: pointer;
+    background-color: cyan;
+    color: white;
+    transition: 0.3s ease-in-out;
+  }
 }
-
 /* CONTACT-CLIENT */
 
 /* FOOTER */
