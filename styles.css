@@ -51,6 +51,7 @@ textarea {
   border-radius: 3px;
   font-size: 0.7em;
   color: cyan;
+  margin-top: 10px;
 }
 .contact-client h2 {
   padding-left: 50px;
