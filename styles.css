@@ -305,6 +305,7 @@ hr {
 .footer-content p h3 {
   min-width: 200px;
   min-height: 200px;
+  color: #ffff;
 }
 #footer_section {
   color: #ffff;
@@ -365,7 +366,7 @@ hr {
 }
 
 .tajam-logo span {
-  color: #00e0d0;
+  color: cyan;
   font-size: 35px;
   padding-left: 15px;
 }
@@ -394,11 +395,12 @@ hr {
   justify-content: space-between;
 }
 form input {
-  border: 2px solid #ececec;
+  border: 1px solid #ececec;
   background: none;
-  width: 90%;
+  width: 85%;
   padding: 12px;
   font-size: 1em;
+  color: #ececec;
 }
 .subscribe img {
   height: 23px;
@@ -418,7 +420,7 @@ form input {
   justify-content: space-between;
   width: 900px;
   margin: 0 auto;
-  padding: 50px;
+  padding-top: 50px;
 }
 
 .footer-links {
