@@ -380,6 +380,7 @@ textarea {
   background-position: center center;
   background-attachment: fixed;
   width: 100vw;
+  color: #ffff;
 }
 .footer-content p h3 {
   min-width: 200px;
@@ -421,6 +422,7 @@ textarea {
 .footer-wrap h3 {
   font-size: 1em;
   font-weight: 500;
+  color: #fff;
 }
 .footer-content {
   height: auto;
@@ -453,6 +455,7 @@ textarea {
 .footer-content p {
   padding-bottom: 25px;
   line-height: 1.4;
+  color: #fff;
 }
 
 .footer-loc-wrap {
@@ -477,9 +480,9 @@ form input {
   border: 1px solid #ececec;
   background: none;
   width: 85%;
-  padding: 12px;
+  padding: 10px;
   font-size: 1em;
-  color: #ececec;
+  color: #fff;
 }
 .subscribe img {
   height: 23px;
@@ -514,7 +517,9 @@ form input {
   color: #ffff;
   font-size: 0.8em;
 }
-
+.footer-wrap p {
+  color: #fff;
+}
 /* Responsive Design */
 
 /* Extra small devices (phones, 600px and down) */
